@@ -1,7 +1,8 @@
-# Revision Candidate: 2026-09-29
+# Revision Release: 2026-09-30
 
-Prepared release package. The remote commit and Release still need to be created from the upload handoff if the current network session cannot upload them.
-Target: https://github.com/deyiwang89/lychee-mov3f-clean
+Published release package. Target repository:
+https://github.com/deyiwang89/lychee-mov3f-clean
+Release assets: https://github.com/deyiwang89/lychee-mov3f-clean/releases/tag/v2026.09.30
 
 ## Included
 
@@ -21,7 +22,7 @@ Target: https://github.com/deyiwang89/lychee-mov3f-clean
 - `real_scene_23.zip`: 23 canopy photographs, not expert-annotated leaf-level test data.
 
 Weights and full datasets should be Release attachments, not committed Git objects.
-Suggested version tag: `v2026.09.30`.
+Published version tag: `v2026.09.30`.
 
 ## Checks Performed
 
@@ -37,7 +38,7 @@ and compatibility with the intended CC BY 4.0 grant remain to be documented.
 This also covers selected crop images and photographic figures inside this tree.
 Code MIT terms do not license the images.
 
-Fig. 1 and the graphical abstract have been updated after author approval of the precision-stage clarification. Unrelated manuscript affiliation, response-location corrections and cover-letter approval remain pending in the journal package.
+Fig. 1 and the graphical abstract have been updated after author approval of the precision-stage clarification. The release package is separate from the journal submission files.
 
 Historical metadata paths are explanatory identifiers, not a guarantee that
 every historical input is redistributed. See `docs/archived_records.md`.

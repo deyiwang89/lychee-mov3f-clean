@@ -32,4 +32,7 @@ evidence. Do not interpret code MIT licensing as a license to third-party images
 This gate also covers the photographic panels and six selected crops in the code
 tree. Model redistribution terms also require explicit owner confirmation.
 
-Record the actual release tag, URLs and hashes after upload; do not invent a DOI.
+Release tag: `v2026.09.30`. Release assets and their SHA-256 values are listed at
+https://github.com/deyiwang89/lychee-mov3f-clean/releases/tag/v2026.09.30 and in
+`release_manifest.csv` attached to that release. Do not interpret the release as
+an independent external validation dataset.
