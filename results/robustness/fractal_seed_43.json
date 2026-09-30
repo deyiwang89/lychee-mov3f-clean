@@ -1,0 +1,73 @@
+{
+  "weights": "artifacts/weights/fractal_seed_43/best_epoch_weights.pth",
+  "weights_sha256": "5b5adcb72bb6ede3d98ec7874e3d37f5daa831680145e4b127120f1858f5d25d",
+  "test_annotation": "data/manifests/seed_43/test.txt",
+  "test_annotation_sha256": "0fee6f31229cd90f26e63f4fa5b9b8d1077e860bcafac17aba617b473a647bbc",
+  "backbone": "mobilenetv3_fractal",
+  "fractal_box_sizes": [
+    1,
+    2,
+    4
+  ],
+  "fractal_threshold": 0.5,
+  "clean_preprocessing": "shorter-edge resize to 224 followed by 224x224 center crop; identical to the formal test loader",
+  "occlusion_definition": "central square covering the stated fraction of total image area",
+  "samples": 3012,
+  "conditions": {
+    "clean": {
+      "accuracy": 0.9887118193891102,
+      "accuracy_change_from_clean": 0.0,
+      "errors": 34
+    },
+    "brightness_low": {
+      "accuracy": 0.9711155378486056,
+      "accuracy_change_from_clean": -0.017596281540504632,
+      "errors": 87
+    },
+    "brightness_high": {
+      "accuracy": 0.9654714475431607,
+      "accuracy_change_from_clean": -0.023240371845949515,
+      "errors": 104
+    },
+    "gaussian_blur": {
+      "accuracy": 0.9412350597609562,
+      "accuracy_change_from_clean": -0.04747675962815401,
+      "errors": 177
+    },
+    "motion_blur": {
+      "accuracy": 0.8250332005312085,
+      "accuracy_change_from_clean": -0.1636786188579017,
+      "errors": 527
+    },
+    "occlusion_10": {
+      "accuracy": 0.9601593625498008,
+      "accuracy_change_from_clean": -0.028552456839309404,
+      "errors": 120
+    },
+    "occlusion_25": {
+      "accuracy": 0.8549136786188579,
+      "accuracy_change_from_clean": -0.13379814077025232,
+      "errors": 437
+    },
+    "scale_crop_1.2": {
+      "accuracy": 0.9857237715803453,
+      "accuracy_change_from_clean": -0.0029880478087649376,
+      "errors": 43
+    },
+    "rotation_10": {
+      "accuracy": 0.9847277556440903,
+      "accuracy_change_from_clean": -0.003984063745019917,
+      "errors": 46
+    },
+    "background_clutter": {
+      "accuracy": 0.7908366533864541,
+      "accuracy_change_from_clean": -0.1978751660026561,
+      "errors": 630
+    },
+    "noncentered": {
+      "accuracy": 0.9246347941567065,
+      "accuracy_change_from_clean": -0.06407702523240377,
+      "errors": 227
+    }
+  }
+}

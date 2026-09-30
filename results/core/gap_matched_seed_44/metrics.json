@@ -1,0 +1,220 @@
+{
+  "weights": "external_weights/gap_matched_seed_44/best_epoch_weights.pth",
+  "weights_sha256": "15dbd0d061af86a760f9e83875d52e92bcff22beda6bc98c1ad21e8a13607381",
+  "weights_size_bytes": 8604938,
+  "backbone": "mobilenetv3_gap_matched",
+  "seed": 44,
+  "test_annotation": "data/manifests/seed_44/test.txt",
+  "test_annotation_sha256": "f07e5b358fb311fb0847b84fb10f74464f7b8f44b3f1d1346dd0a4a80b843f7d",
+  "fractal_box_sizes": [
+    1,
+    2,
+    4
+  ],
+  "fractal_threshold": 0.5,
+  "parameter_count": 2117930,
+  "device": "cuda",
+  "samples": 3012,
+  "accuracy": 0.9820717131474104,
+  "top5_accuracy": 1.0,
+  "macro_precision": 0.9771353499772049,
+  "macro_recall": 0.9686338920844264,
+  "macro_f1": 0.971596729825835,
+  "classification_report": {
+    "Anthrax_Leaf": {
+      "precision": 0.943089430894309,
+      "recall": 0.9830508474576272,
+      "f1-score": 0.9626556016597511,
+      "support": 118.0
+    },
+    "Bituminous_Leaf": {
+      "precision": 0.9478260869565217,
+      "recall": 0.990909090909091,
+      "f1-score": 0.9688888888888889,
+      "support": 110.0
+    },
+    "Curl_Leaf": {
+      "precision": 0.9594594594594594,
+      "recall": 1.0,
+      "f1-score": 0.9793103448275862,
+      "support": 142.0
+    },
+    "Deficiency_Leaf": {
+      "precision": 1.0,
+      "recall": 0.8061224489795918,
+      "f1-score": 0.8926553672316384,
+      "support": 98.0
+    },
+    "Dry_Leaf": {
+      "precision": 0.9966996699669967,
+      "recall": 0.9901639344262295,
+      "f1-score": 0.993421052631579,
+      "support": 305.0
+    },
+    "Felt_Leaf": {
+      "precision": 0.9862068965517241,
+      "recall": 0.934640522875817,
+      "f1-score": 0.959731543624161,
+      "support": 306.0
+    },
+    "Fungal_Leaf_Spot": {
+      "precision": 0.9561586638830898,
+      "recall": 0.9978213507625272,
+      "f1-score": 0.976545842217484,
+      "support": 459.0
+    },
+    "Healthy_Leaf": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 502.0
+    },
+    "Leaf_Gall": {
+      "precision": 0.9840319361277445,
+      "recall": 0.9899598393574297,
+      "f1-score": 0.986986986986987,
+      "support": 498.0
+    },
+    "Leaf_Blight": {
+      "precision": 0.9978813559322034,
+      "recall": 0.9936708860759493,
+      "f1-score": 0.9957716701902748,
+      "support": 474.0
+    },
+    "accuracy": 0.9820717131474104,
+    "macro avg": {
+      "precision": 0.9771353499772049,
+      "recall": 0.9686338920844264,
+      "f1-score": 0.971596729825835,
+      "support": 3012.0
+    },
+    "weighted avg": {
+      "precision": 0.9825637015154615,
+      "recall": 0.9820717131474104,
+      "f1-score": 0.9817843757958188,
+      "support": 3012.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      116,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      109,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      142,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      6,
+      5,
+      79,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      302,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      286,
+      17,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      458,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      502,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      2,
+      0,
+      493,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      471
+    ]
+  ]
+}

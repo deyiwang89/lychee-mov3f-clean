@@ -1,0 +1,35 @@
+{
+  "raw_images": 1409,
+  "source_groups": 951,
+  "representative_images": 951,
+  "classes": {
+    "Curl_Leaf": 201,
+    "Deficiency_Leaf": 201,
+    "Felt_Leaf": 201,
+    "Fungal_Leaf_Spot": 201,
+    "Healthy_Leaf": 200,
+    "Leaf_Blight": 204,
+    "Leaf_Gall": 201
+  },
+  "representative_classes": {
+    "Curl_Leaf": 100,
+    "Deficiency_Leaf": 62,
+    "Felt_Leaf": 136,
+    "Fungal_Leaf_Spot": 160,
+    "Healthy_Leaf": 167,
+    "Leaf_Blight": 162,
+    "Leaf_Gall": 164
+  },
+  "original_split_counts": {
+    "train": 988,
+    "valid": 281,
+    "test": 140
+  },
+  "augmentation_kind_counts": {
+    "aug1": 1351,
+    "aug2": 50,
+    "orig": 8
+  },
+  "exact_overlap_with_primary": 0,
+  "statement_limit": "This archive is augmentation-aware and lacks complete collection metadata; source-group evaluation is secondary-domain evidence, not automatically verified independent external validation."
+}

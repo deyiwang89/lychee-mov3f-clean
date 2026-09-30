@@ -1,0 +1,10 @@
+Anthrax_Leaf
+Bituminous_Leaf
+Curl_Leaf
+Deficiency_Leaf
+Dry_Leaf
+Felt_Leaf
+Fungal_Leaf_Spot
+Healthy_Leaf
+Leaf_Gall
+Leaf_Blight

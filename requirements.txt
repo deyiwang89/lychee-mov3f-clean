@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas
+Pillow==9.3.0
+opencv-python
+torch==2.1.0
+torchvision==0.16.0
+scikit-learn
+scipy
+matplotlib
+tqdm
+tensorboard

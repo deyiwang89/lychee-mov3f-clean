@@ -1,0 +1,212 @@
+{
+  "scope": "source-group deduplicated secondary-domain evaluation",
+  "mode": "bbox",
+  "samples": 1409,
+  "covered_classes": [
+    "Curl_Leaf",
+    "Deficiency_Leaf",
+    "Felt_Leaf",
+    "Fungal_Leaf_Spot",
+    "Healthy_Leaf",
+    "Leaf_Gall",
+    "Leaf_Blight"
+  ],
+  "accuracy": 0.9701916252661462,
+  "macro_precision": 0.9738872351200806,
+  "macro_recall": 0.9701597056733141,
+  "macro_f1": 0.9718102118159994,
+  "classification_report": {
+    "Curl_Leaf": {
+      "precision": 0.9845360824742269,
+      "recall": 0.9502487562189055,
+      "f1-score": 0.9670886075949368,
+      "support": 201.0
+    },
+    "Deficiency_Leaf": {
+      "precision": 0.9444444444444444,
+      "recall": 0.9303482587064676,
+      "f1-score": 0.9373433583959899,
+      "support": 201.0
+    },
+    "Felt_Leaf": {
+      "precision": 1.0,
+      "recall": 0.9601990049751243,
+      "f1-score": 0.9796954314720813,
+      "support": 201.0
+    },
+    "Fungal_Leaf_Spot": {
+      "precision": 0.9617224880382775,
+      "recall": 1.0,
+      "f1-score": 0.9804878048780488,
+      "support": 201.0
+    },
+    "Healthy_Leaf": {
+      "precision": 0.9852216748768473,
+      "recall": 1.0,
+      "f1-score": 0.9925558312655087,
+      "support": 200.0
+    },
+    "Leaf_Gall": {
+      "precision": 0.9746192893401016,
+      "recall": 0.9552238805970149,
+      "f1-score": 0.964824120603015,
+      "support": 201.0
+    },
+    "Leaf_Blight": {
+      "precision": 0.9666666666666667,
+      "recall": 0.9950980392156863,
+      "f1-score": 0.9806763285024155,
+      "support": 204.0
+    },
+    "micro avg": {
+      "precision": 0.9736467236467237,
+      "recall": 0.9701916252661462,
+      "f1-score": 0.9719161038037682,
+      "support": 1409.0
+    },
+    "macro avg": {
+      "precision": 0.9738872351200806,
+      "recall": 0.9701597056733141,
+      "f1-score": 0.9718102118159994,
+      "support": 1409.0
+    },
+    "weighted avg": {
+      "precision": 0.9738638169901183,
+      "recall": 0.9701916252661462,
+      "f1-score": 0.9718143656347429,
+      "support": 1409.0
+    }
+  },
+  "confusion_matrix_10_classes": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      191,
+      8,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      2,
+      187,
+      0,
+      0,
+      4,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      193,
+      4,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      201,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      3,
+      0,
+      0,
+      0,
+      2,
+      192,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      203
+    ]
+  ],
+  "weights": "006-论文返修RR-260820\\rebuttal_experiments\\weights\\gap_seed_44\\best_epoch_weights.pth",
+  "weights_sha256": "3522e4d479160cbcf7521c9df6c7ec9d5ca9cfcfea2ca814dc12a40f72f1d7f5",
+  "backbone": "mobilenetv3_gap",
+  "fractal_box_sizes": [
+    1,
+    2,
+    4
+  ],
+  "fractal_threshold": 0.5,
+  "statement_limit": "The seven-class archive is not treated as full-class or automatically verified independent external validation."
+}

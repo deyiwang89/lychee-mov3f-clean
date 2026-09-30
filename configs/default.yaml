@@ -1,0 +1,11 @@
+# Public reproducibility defaults. Raw images and checkpoints are external inputs.
+input_size: [224, 224]
+color_order: RGB
+normalization: imagenet
+seeds: [42, 43, 44]
+development_fraction: 0.20
+train_images: 602
+validation_images: 151
+test_images: 3012
+fractal_box_sizes: [1, 2, 4]
+fractal_threshold: 0.5

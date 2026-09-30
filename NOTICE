@@ -1,0 +1,10 @@
+This repository includes a compact MobileNetV3 implementation derived from
+the MIT-licensed classification-pytorch project.
+
+Copyright (c) 2020 Bubbliiiing
+https://github.com/bubbliiiing/classification-pytorch
+
+The upstream MIT License is retained in LICENSE-UPSTREAM.
+LICENSE covers the project software contributions. Neither software license
+is a blanket license for third-party photographs, datasets, or model artifacts.
+See DATA_ACCESS.md for the pending data-release review.

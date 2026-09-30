@@ -1,0 +1,2 @@
+run_id,model,model_hash,firmware,run_duration_min,error_count,restart_count,interrupt_count,voltage_v_mean,current_a_mean,power_w_mean,chip_temp_c_max,measurement_scope,notes
+k230_seed43_ptq_60min,mobilenetv3_fractal_seed43_noclip_train602_w8_a16.kmodel,CB869DFE09ABB66CCDA5378C0A056CE5020107EFDD2D5A867F3EFCE2E7C3A70,CanMV K230,60,0,0,0,4.75,0.66,3.135,39.1,system_input,Long-time average voltage/current; no observed errors restarts or interruptions

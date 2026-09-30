@@ -1,0 +1,290 @@
+{
+  "samples": 3012,
+  "errors": 34,
+  "class_summary": {
+    "Anthrax_Leaf": {
+      "samples": 118,
+      "errors": 4,
+      "accuracy": 0.9661016949152542,
+      "recall": 0.9661016949152542
+    },
+    "Bituminous_Leaf": {
+      "samples": 110,
+      "errors": 1,
+      "accuracy": 0.990909090909091,
+      "recall": 0.990909090909091
+    },
+    "Curl_Leaf": {
+      "samples": 142,
+      "errors": 0,
+      "accuracy": 1.0,
+      "recall": 1.0
+    },
+    "Deficiency_Leaf": {
+      "samples": 98,
+      "errors": 9,
+      "accuracy": 0.9081632653061225,
+      "recall": 0.9081632653061225
+    },
+    "Dry_Leaf": {
+      "samples": 305,
+      "errors": 0,
+      "accuracy": 1.0,
+      "recall": 1.0
+    },
+    "Felt_Leaf": {
+      "samples": 306,
+      "errors": 8,
+      "accuracy": 0.9738562091503268,
+      "recall": 0.9738562091503268
+    },
+    "Fungal_Leaf_Spot": {
+      "samples": 459,
+      "errors": 7,
+      "accuracy": 0.9847494553376906,
+      "recall": 0.9847494553376906
+    },
+    "Healthy_Leaf": {
+      "samples": 502,
+      "errors": 4,
+      "accuracy": 0.9920318725099602,
+      "recall": 0.9920318725099602
+    },
+    "Leaf_Blight": {
+      "samples": 474,
+      "errors": 0,
+      "accuracy": 1.0,
+      "recall": 1.0
+    },
+    "Leaf_Gall": {
+      "samples": 498,
+      "errors": 1,
+      "accuracy": 0.9979919678714859,
+      "recall": 0.9979919678714859
+    }
+  },
+  "confusion_pairs": [
+    {
+      "true": "Fungal_Leaf_Spot",
+      "predicted": "Felt_Leaf",
+      "count": 6
+    },
+    {
+      "true": "Healthy_Leaf",
+      "predicted": "Leaf_Gall",
+      "count": 4
+    },
+    {
+      "true": "Deficiency_Leaf",
+      "predicted": "Bituminous_Leaf",
+      "count": 3
+    },
+    {
+      "true": "Deficiency_Leaf",
+      "predicted": "Anthrax_Leaf",
+      "count": 3
+    },
+    {
+      "true": "Felt_Leaf",
+      "predicted": "Leaf_Gall",
+      "count": 3
+    },
+    {
+      "true": "Deficiency_Leaf",
+      "predicted": "Curl_Leaf",
+      "count": 2
+    },
+    {
+      "true": "Felt_Leaf",
+      "predicted": "Fungal_Leaf_Spot",
+      "count": 2
+    },
+    {
+      "true": "Felt_Leaf",
+      "predicted": "Leaf_Blight",
+      "count": 2
+    },
+    {
+      "true": "Anthrax_Leaf",
+      "predicted": "Leaf_Gall",
+      "count": 2
+    },
+    {
+      "true": "Deficiency_Leaf",
+      "predicted": "Leaf_Gall",
+      "count": 1
+    },
+    {
+      "true": "Bituminous_Leaf",
+      "predicted": "Deficiency_Leaf",
+      "count": 1
+    },
+    {
+      "true": "Anthrax_Leaf",
+      "predicted": "Curl_Leaf",
+      "count": 1
+    },
+    {
+      "true": "Anthrax_Leaf",
+      "predicted": "Bituminous_Leaf",
+      "count": 1
+    },
+    {
+      "true": "Felt_Leaf",
+      "predicted": "Healthy_Leaf",
+      "count": 1
+    },
+    {
+      "true": "Fungal_Leaf_Spot",
+      "predicted": "Healthy_Leaf",
+      "count": 1
+    },
+    {
+      "true": "Leaf_Gall",
+      "predicted": "Curl_Leaf",
+      "count": 1
+    }
+  ],
+  "high_confidence_errors": [
+    {
+      "image_path": "data/primary_external/test/Deficiency_Leaf/Deficiency_Leaf00045.jpg",
+      "true_label": "Deficiency_Leaf",
+      "predicted_label": "Bituminous_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.996890"
+    },
+    {
+      "image_path": "data/primary_external/train/Anthrax_Leaf/Anthrax_Leaf00113.jpg",
+      "true_label": "Anthrax_Leaf",
+      "predicted_label": "Leaf_Gall",
+      "status": "Incorrect",
+      "confidence": "0.994912"
+    },
+    {
+      "image_path": "data/primary_external/test/Anthrax_Leaf/Anthrax_Leaf00019.jpg",
+      "true_label": "Anthrax_Leaf",
+      "predicted_label": "Curl_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.955390"
+    },
+    {
+      "image_path": "data/primary_external/test/Fungal_Leaf_Spot/Fungal_Leaf_Spot00374.jpg",
+      "true_label": "Fungal_Leaf_Spot",
+      "predicted_label": "Felt_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.953820"
+    },
+    {
+      "image_path": "data/primary_external/test/Deficiency_Leaf/Deficiency_Leaf00111.jpg",
+      "true_label": "Deficiency_Leaf",
+      "predicted_label": "Bituminous_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.941366"
+    },
+    {
+      "image_path": "data/primary_external/test/Felt_Leaf/Felt_Leaf00257.jpg",
+      "true_label": "Felt_Leaf",
+      "predicted_label": "Leaf_Blight",
+      "status": "Incorrect",
+      "confidence": "0.931206"
+    },
+    {
+      "image_path": "data/primary_external/test/Deficiency_Leaf/Deficiency_Leaf00093.jpg",
+      "true_label": "Deficiency_Leaf",
+      "predicted_label": "Anthrax_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.931047"
+    },
+    {
+      "image_path": "data/primary_external/train/Healthy_Leaf/Healthy_Leaf00494.jpg",
+      "true_label": "Healthy_Leaf",
+      "predicted_label": "Leaf_Gall",
+      "status": "Incorrect",
+      "confidence": "0.924001"
+    },
+    {
+      "image_path": "data/primary_external/train/Deficiency_Leaf/Deficiency_Leaf00057.jpg",
+      "true_label": "Deficiency_Leaf",
+      "predicted_label": "Anthrax_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.922005"
+    },
+    {
+      "image_path": "data/primary_external/train/Deficiency_Leaf/Deficiency_Leaf00044.jpg",
+      "true_label": "Deficiency_Leaf",
+      "predicted_label": "Bituminous_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.918995"
+    },
+    {
+      "image_path": "data/primary_external/test/Deficiency_Leaf/Deficiency_Leaf00003.jpg",
+      "true_label": "Deficiency_Leaf",
+      "predicted_label": "Anthrax_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.909272"
+    },
+    {
+      "image_path": "data/primary_external/test/Leaf_Gall/Leaf_Gall00146.jpg",
+      "true_label": "Leaf_Gall",
+      "predicted_label": "Curl_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.828319"
+    },
+    {
+      "image_path": "data/primary_external/test/Anthrax_Leaf/Anthrax_Leaf00143.jpg",
+      "true_label": "Anthrax_Leaf",
+      "predicted_label": "Bituminous_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.822399"
+    },
+    {
+      "image_path": "data/primary_external/test/Felt_Leaf/Felt_Leaf00011.jpg",
+      "true_label": "Felt_Leaf",
+      "predicted_label": "Leaf_Gall",
+      "status": "Incorrect",
+      "confidence": "0.804193"
+    },
+    {
+      "image_path": "data/primary_external/train/Fungal_Leaf_Spot/Fungal_Leaf_Spot00466.jpg",
+      "true_label": "Fungal_Leaf_Spot",
+      "predicted_label": "Felt_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.803999"
+    },
+    {
+      "image_path": "data/primary_external/test/Deficiency_Leaf/Deficiency_Leaf00080.jpg",
+      "true_label": "Deficiency_Leaf",
+      "predicted_label": "Curl_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.790867"
+    },
+    {
+      "image_path": "data/primary_external/train/Healthy_Leaf/Healthy_Leaf00500.jpg",
+      "true_label": "Healthy_Leaf",
+      "predicted_label": "Leaf_Gall",
+      "status": "Incorrect",
+      "confidence": "0.745851"
+    },
+    {
+      "image_path": "data/primary_external/train/Healthy_Leaf/Healthy_Leaf00493.jpg",
+      "true_label": "Healthy_Leaf",
+      "predicted_label": "Leaf_Gall",
+      "status": "Incorrect",
+      "confidence": "0.723971"
+    },
+    {
+      "image_path": "data/primary_external/test/Felt_Leaf/Felt_Leaf00286.jpg",
+      "true_label": "Felt_Leaf",
+      "predicted_label": "Fungal_Leaf_Spot",
+      "status": "Incorrect",
+      "confidence": "0.722757"
+    },
+    {
+      "image_path": "data/primary_external/test/Fungal_Leaf_Spot/Fungal_Leaf_Spot00464.jpg",
+      "true_label": "Fungal_Leaf_Spot",
+      "predicted_label": "Healthy_Leaf",
+      "status": "Incorrect",
+      "confidence": "0.720860"
+    }
+  ]
+}

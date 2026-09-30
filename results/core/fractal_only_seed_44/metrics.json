@@ -1,0 +1,220 @@
+{
+  "weights": "external_weights/fractal_only_seed_44/best_epoch_weights.pth",
+  "weights_sha256": "8518c8d8af60e0fc77937a3bfde5f898052715f24585787a38031904f1ae0c9f",
+  "weights_size_bytes": 6245642,
+  "backbone": "mobilenetv3_fractal_only",
+  "seed": 44,
+  "test_annotation": "data/manifests/seed_44/test.txt",
+  "test_annotation_sha256": "f07e5b358fb311fb0847b84fb10f74464f7b8f44b3f1d1346dd0a4a80b843f7d",
+  "fractal_box_sizes": [
+    1,
+    2,
+    4
+  ],
+  "fractal_threshold": 0.5,
+  "parameter_count": 1528106,
+  "device": "cuda",
+  "samples": 3012,
+  "accuracy": 0.6430942895086321,
+  "top5_accuracy": 0.951527224435591,
+  "macro_precision": 0.6720292108800074,
+  "macro_recall": 0.5804346005394156,
+  "macro_f1": 0.6040417612439293,
+  "classification_report": {
+    "Anthrax_Leaf": {
+      "precision": 0.7241379310344828,
+      "recall": 0.5338983050847458,
+      "f1-score": 0.6146341463414634,
+      "support": 118.0
+    },
+    "Bituminous_Leaf": {
+      "precision": 0.8285714285714286,
+      "recall": 0.5272727272727272,
+      "f1-score": 0.6444444444444445,
+      "support": 110.0
+    },
+    "Curl_Leaf": {
+      "precision": 0.7211538461538461,
+      "recall": 0.528169014084507,
+      "f1-score": 0.6097560975609756,
+      "support": 142.0
+    },
+    "Deficiency_Leaf": {
+      "precision": 0.6666666666666666,
+      "recall": 0.16326530612244897,
+      "f1-score": 0.26229508196721313,
+      "support": 98.0
+    },
+    "Dry_Leaf": {
+      "precision": 0.7561728395061729,
+      "recall": 0.8032786885245902,
+      "f1-score": 0.7790143084260731,
+      "support": 305.0
+    },
+    "Felt_Leaf": {
+      "precision": 0.5016077170418006,
+      "recall": 0.5098039215686274,
+      "f1-score": 0.5056726094003241,
+      "support": 306.0
+    },
+    "Fungal_Leaf_Spot": {
+      "precision": 0.6094069529652352,
+      "recall": 0.6492374727668845,
+      "f1-score": 0.6286919831223629,
+      "support": 459.0
+    },
+    "Healthy_Leaf": {
+      "precision": 0.7035714285714286,
+      "recall": 0.7848605577689243,
+      "f1-score": 0.7419962335216572,
+      "support": 502.0
+    },
+    "Leaf_Gall": {
+      "precision": 0.5615079365079365,
+      "recall": 0.5682730923694779,
+      "f1-score": 0.564870259481038,
+      "support": 498.0
+    },
+    "Leaf_Blight": {
+      "precision": 0.647495361781076,
+      "recall": 0.7362869198312236,
+      "f1-score": 0.6890424481737414,
+      "support": 474.0
+    },
+    "accuracy": 0.6430942895086321,
+    "macro avg": {
+      "precision": 0.6720292108800074,
+      "recall": 0.5804346005394156,
+      "f1-score": 0.6040417612439293,
+      "support": 3012.0
+    },
+    "weighted avg": {
+      "precision": 0.6467156017182476,
+      "recall": 0.6430942895086321,
+      "f1-score": 0.636455651967804,
+      "support": 3012.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      63,
+      3,
+      1,
+      1,
+      7,
+      2,
+      7,
+      11,
+      15,
+      8
+    ],
+    [
+      1,
+      58,
+      2,
+      1,
+      10,
+      1,
+      7,
+      15,
+      14,
+      1
+    ],
+    [
+      2,
+      2,
+      75,
+      2,
+      4,
+      8,
+      10,
+      12,
+      14,
+      13
+    ],
+    [
+      6,
+      2,
+      5,
+      16,
+      6,
+      7,
+      7,
+      15,
+      29,
+      5
+    ],
+    [
+      2,
+      1,
+      2,
+      0,
+      245,
+      3,
+      6,
+      23,
+      12,
+      11
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      3,
+      156,
+      40,
+      12,
+      58,
+      31
+    ],
+    [
+      4,
+      1,
+      5,
+      1,
+      6,
+      55,
+      298,
+      39,
+      19,
+      31
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      15,
+      7,
+      38,
+      394,
+      28,
+      15
+    ],
+    [
+      6,
+      2,
+      3,
+      2,
+      23,
+      38,
+      44,
+      22,
+      283,
+      75
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      5,
+      34,
+      32,
+      17,
+      32,
+      349
+    ]
+  ]
+}

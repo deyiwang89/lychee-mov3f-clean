@@ -1,0 +1,69 @@
+{
+  "purpose": "Qualitative real-scene sliding-window diagnosis; no accuracy is reported.",
+  "script": "scripts/run_real_scene_sliding_window.py",
+  "source_images": "data/real_scene_23",
+  "source_image_sha256": {
+    "微信图片_20260823222858_28_46.jpg": "af1499dcc74b7dd70b56f01ed92c6be7865b3b42f7baf22531c88b769fbceecf",
+    "微信图片_20260823222859_29_46.jpg": "ccf3b73c40df02a274c6c5fadb83a7c022fc193f0a2a5ca760db3a63f299ef9d",
+    "微信图片_20260823222900_30_46.jpg": "9696d16041712794a31c8959ad0f7f216c9f5817fd4a61ea0c0e894aec95d546",
+    "微信图片_20260823222900_31_46.jpg": "04981404198a1d0ae2e1e702b354a58d69a0a952b3f8923cc2d5b679a0531637",
+    "微信图片_20260823223021_32_46.jpg": "8cd250c7eb331b50d8504b044962c9afba6fcd703fb9c35a45af5fd4549f4cb1",
+    "微信图片_20260823223023_33_46.jpg": "d20468b2a3391acbd68f45547917c00a198cd3735891e8d5505aef5a07691919",
+    "微信图片_20260823223023_34_46.jpg": "b4b2c4cc2885cf59b45d492f803972c968da90ba7ed6532eaab37e94b784c247",
+    "微信图片_20260823223024_35_46.jpg": "db5b9aed88a303144d11fa6b7f4189928c90a049981b6c90d34c63dfe9a03667",
+    "微信图片_20260823223025_36_46.jpg": "200556302597ff2f893a6aa27d5831f21bb5ee65598e300b561bcd79504dd490",
+    "微信图片_20260823223053_37_46.jpg": "9177f91c203122a3a2a3c83a6f498498de93de1d1c1966984add7c15dbbf8ba0",
+    "微信图片_20260823223054_38_46.jpg": "d2927c783639e1764d5508958bc77cbef1d3396d3d63daa575dd03e742f40f02",
+    "微信图片_20260823223055_39_46.jpg": "8d055a9235b8f7bdcdbeae4f4b127bf348bc6d4c4d34510371b7276a992a386c",
+    "微信图片_20260823223056_40_46.jpg": "4efaf6cca791c2b610e7dfdff883d2e2f9f741410c8439b50ad7e2303508a24e",
+    "微信图片_20260823223056_41_46.jpg": "4826f71710d8d168e49907bf4ed9a188b3c77e8d607451c7918393796b14d6a3",
+    "微信图片_20260823223147_42_46.jpg": "76c124ce6107d978c61c1f304ea8cc9df324f17965e6abffe1e79f92ede60df3",
+    "微信图片_20260823223148_43_46.jpg": "087af92a3e1427e9a60e07fbad4bb9d565639f89ebc55f2fd42eaa114c58ddb0",
+    "微信图片_20260823223149_44_46.jpg": "543eaffe49ef6ba866cdc486937f6a866f726c49f90a7d03de445d438d373d9b",
+    "微信图片_20260823223235_45_46.jpg": "2f43d3258dcbe2a7cc538529c2584cbf12781765c0d307111d4d2c874f1d0d7a",
+    "微信图片_20260823223401_46_46.jpg": "7a6c1986066b1a08349a5d682ef6ffb7bf4724bdd84e29080dc8bd377364fc2a",
+    "微信图片_20260823223403_48_46.jpg": "a8bb48970da3c4a9edaa566248f53999f6ea74d82df7104e5a99213b20690b3e",
+    "微信图片_20260823223404_49_46.jpg": "e4d5b6d6f515f9d40de8e36ebdc5122b9305fc7da9368c19daf5fae7b10e5a99",
+    "微信图片_20260823223404_50_46.jpg": "7fbedda70e6cc9fbb254aa698b066f86ce61eb91b64d68ba0efe49e48f582af9",
+    "微信图片_20260823223406_52_46.jpg": "8587f71c169515e0e93f3b802fb64109c5ea2f8dd265528682f5d6f3c7129032"
+  },
+  "weights_filename": "best_epoch_weights.pth",
+  "weights_sha256": "5b5adcb72bb6ede3d98ec7874e3d37f5daa831680145e4b127120f1858f5d25d",
+  "model": "MobileNetV3-Fractal",
+  "seed": 43,
+  "classes": [
+    "Anthrax_Leaf",
+    "Bituminous_Leaf",
+    "Curl_Leaf",
+    "Deficiency_Leaf",
+    "Dry_Leaf",
+    "Felt_Leaf",
+    "Fungal_Leaf_Spot",
+    "Healthy_Leaf",
+    "Leaf_Gall",
+    "Leaf_Blight"
+  ],
+  "input_size": [
+    224,
+    224
+  ],
+  "window_scales": [
+    0.4,
+    0.6
+  ],
+  "stride_ratio": 0.5,
+  "confidence_threshold": 0.8,
+  "nms_iou_threshold": 0.3,
+  "max_candidates_per_image": 5,
+  "device": "cuda",
+  "images": 23,
+  "windows": 1089,
+  "retained_candidates": 115,
+  "fig8_output": "figures/fig_rebuttal_real_scene_sliding_window.png",
+  "fig8_source_images": [
+    "微信图片_20260823222858_28_46.jpg",
+    "微信图片_20260823222900_30_46.jpg",
+    "微信图片_20260823222859_29_46.jpg",
+    "微信图片_20260823223021_32_46.jpg"
+  ]
+}

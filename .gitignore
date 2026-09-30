@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+checkpoints/
+results/real_scene_sliding_window/crops/
+*.pth
+*.onnx
+*.kmodel

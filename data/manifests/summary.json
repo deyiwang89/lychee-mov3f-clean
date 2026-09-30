@@ -1,0 +1,311 @@
+{
+  "source_file_count": 3768,
+  "unique_image_count": 3765,
+  "excluded_duplicate_count": 3,
+  "duplicate_groups": [
+    {
+      "sha256": "0fbcf45141f3bd01fa2836a85d5de9064fa77f81af34d27a906bb55a06bf3239",
+      "class_name": "Curl_Leaf",
+      "canonical_path": "datasets/train/Curl_Leaf/Curl_Leaf00175.jpg",
+      "excluded_paths": [
+        "datasets/train/Curl_Leaf/Curl_Leaf00176.jpg"
+      ]
+    },
+    {
+      "sha256": "563d254f67629b716830627efcc03a9b8f145dd66a2a5a093ce4570006d1a7aa",
+      "class_name": "Curl_Leaf",
+      "canonical_path": "datasets/train/Curl_Leaf/Curl_Leaf00163.jpg",
+      "excluded_paths": [
+        "datasets/test/Curl_Leaf/Curl_Leaf00162.jpg"
+      ]
+    },
+    {
+      "sha256": "892dad145dcc5676cfff13a31ab312820335b2b3ca701b2233ebdb2eee75e6c2",
+      "class_name": "Anthrax_Leaf",
+      "canonical_path": "datasets/train/Anthrax_Leaf/Anthrax_Leaf00136.jpg",
+      "excluded_paths": [
+        "datasets/test/Anthrax_Leaf/Anthrax_Leaf00137.jpg"
+      ]
+    }
+  ],
+  "development_ratio": 0.2,
+  "val_ratio_within_development": 0.2,
+  "classes": [
+    "Anthrax_Leaf",
+    "Bituminous_Leaf",
+    "Curl_Leaf",
+    "Deficiency_Leaf",
+    "Dry_Leaf",
+    "Felt_Leaf",
+    "Fungal_Leaf_Spot",
+    "Healthy_Leaf",
+    "Leaf_Gall",
+    "Leaf_Blight"
+  ],
+  "seeds": {
+    "42": {
+      "seed": 42,
+      "development_ratio": 0.2,
+      "val_ratio_within_development": 0.2,
+      "source_file_count": 3768,
+      "unique_image_count": 3765,
+      "excluded_duplicate_count": 3,
+      "development_count": 753,
+      "train_count": 602,
+      "val_count": 151,
+      "test_count": 3012,
+      "class_counts": {
+        "Anthrax_Leaf": {
+          "total": 147,
+          "development": 29,
+          "train": 23,
+          "val": 6,
+          "test": 118
+        },
+        "Bituminous_Leaf": {
+          "total": 138,
+          "development": 28,
+          "train": 22,
+          "val": 6,
+          "test": 110
+        },
+        "Curl_Leaf": {
+          "total": 178,
+          "development": 36,
+          "train": 29,
+          "val": 7,
+          "test": 142
+        },
+        "Deficiency_Leaf": {
+          "total": 123,
+          "development": 25,
+          "train": 20,
+          "val": 5,
+          "test": 98
+        },
+        "Dry_Leaf": {
+          "total": 381,
+          "development": 76,
+          "train": 61,
+          "val": 15,
+          "test": 305
+        },
+        "Felt_Leaf": {
+          "total": 382,
+          "development": 76,
+          "train": 61,
+          "val": 15,
+          "test": 306
+        },
+        "Fungal_Leaf_Spot": {
+          "total": 574,
+          "development": 115,
+          "train": 92,
+          "val": 23,
+          "test": 459
+        },
+        "Healthy_Leaf": {
+          "total": 628,
+          "development": 126,
+          "train": 101,
+          "val": 25,
+          "test": 502
+        },
+        "Leaf_Gall": {
+          "total": 622,
+          "development": 124,
+          "train": 99,
+          "val": 25,
+          "test": 498
+        },
+        "Leaf_Blight": {
+          "total": 592,
+          "development": 118,
+          "train": 94,
+          "val": 24,
+          "test": 474
+        }
+      },
+      "source_folders": [
+        "datasets/train",
+        "datasets/test"
+      ]
+    },
+    "43": {
+      "seed": 43,
+      "development_ratio": 0.2,
+      "val_ratio_within_development": 0.2,
+      "source_file_count": 3768,
+      "unique_image_count": 3765,
+      "excluded_duplicate_count": 3,
+      "development_count": 753,
+      "train_count": 602,
+      "val_count": 151,
+      "test_count": 3012,
+      "class_counts": {
+        "Anthrax_Leaf": {
+          "total": 147,
+          "development": 29,
+          "train": 23,
+          "val": 6,
+          "test": 118
+        },
+        "Bituminous_Leaf": {
+          "total": 138,
+          "development": 28,
+          "train": 22,
+          "val": 6,
+          "test": 110
+        },
+        "Curl_Leaf": {
+          "total": 178,
+          "development": 36,
+          "train": 29,
+          "val": 7,
+          "test": 142
+        },
+        "Deficiency_Leaf": {
+          "total": 123,
+          "development": 25,
+          "train": 20,
+          "val": 5,
+          "test": 98
+        },
+        "Dry_Leaf": {
+          "total": 381,
+          "development": 76,
+          "train": 61,
+          "val": 15,
+          "test": 305
+        },
+        "Felt_Leaf": {
+          "total": 382,
+          "development": 76,
+          "train": 61,
+          "val": 15,
+          "test": 306
+        },
+        "Fungal_Leaf_Spot": {
+          "total": 574,
+          "development": 115,
+          "train": 92,
+          "val": 23,
+          "test": 459
+        },
+        "Healthy_Leaf": {
+          "total": 628,
+          "development": 126,
+          "train": 101,
+          "val": 25,
+          "test": 502
+        },
+        "Leaf_Gall": {
+          "total": 622,
+          "development": 124,
+          "train": 99,
+          "val": 25,
+          "test": 498
+        },
+        "Leaf_Blight": {
+          "total": 592,
+          "development": 118,
+          "train": 94,
+          "val": 24,
+          "test": 474
+        }
+      },
+      "source_folders": [
+        "datasets/train",
+        "datasets/test"
+      ]
+    },
+    "44": {
+      "seed": 44,
+      "development_ratio": 0.2,
+      "val_ratio_within_development": 0.2,
+      "source_file_count": 3768,
+      "unique_image_count": 3765,
+      "excluded_duplicate_count": 3,
+      "development_count": 753,
+      "train_count": 602,
+      "val_count": 151,
+      "test_count": 3012,
+      "class_counts": {
+        "Anthrax_Leaf": {
+          "total": 147,
+          "development": 29,
+          "train": 23,
+          "val": 6,
+          "test": 118
+        },
+        "Bituminous_Leaf": {
+          "total": 138,
+          "development": 28,
+          "train": 22,
+          "val": 6,
+          "test": 110
+        },
+        "Curl_Leaf": {
+          "total": 178,
+          "development": 36,
+          "train": 29,
+          "val": 7,
+          "test": 142
+        },
+        "Deficiency_Leaf": {
+          "total": 123,
+          "development": 25,
+          "train": 20,
+          "val": 5,
+          "test": 98
+        },
+        "Dry_Leaf": {
+          "total": 381,
+          "development": 76,
+          "train": 61,
+          "val": 15,
+          "test": 305
+        },
+        "Felt_Leaf": {
+          "total": 382,
+          "development": 76,
+          "train": 61,
+          "val": 15,
+          "test": 306
+        },
+        "Fungal_Leaf_Spot": {
+          "total": 574,
+          "development": 115,
+          "train": 92,
+          "val": 23,
+          "test": 459
+        },
+        "Healthy_Leaf": {
+          "total": 628,
+          "development": 126,
+          "train": 101,
+          "val": 25,
+          "test": 502
+        },
+        "Leaf_Gall": {
+          "total": 622,
+          "development": 124,
+          "train": 99,
+          "val": 25,
+          "test": 498
+        },
+        "Leaf_Blight": {
+          "total": 592,
+          "development": 118,
+          "train": 94,
+          "val": 24,
+          "test": 474
+        }
+      },
+      "source_folders": [
+        "datasets/train",
+        "datasets/test"
+      ]
+    }
+  }
+}

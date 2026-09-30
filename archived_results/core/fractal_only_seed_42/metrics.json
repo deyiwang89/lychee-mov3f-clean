@@ -1,0 +1,220 @@
+{
+  "weights": "external_weights/fractal_only_seed_42/best_epoch_weights.pth",
+  "weights_sha256": "f1cc2d471a4ac700977fa81390ffecf9da2eefa2f52e67213ff821137f647411",
+  "weights_size_bytes": 6245642,
+  "backbone": "mobilenetv3_fractal_only",
+  "seed": 42,
+  "test_annotation": "data/manifests/seed_42/test.txt",
+  "test_annotation_sha256": "7481614857d3c56a7d58c13a444da383d4adafb64998d3d140cdd4d84cc4bada",
+  "fractal_box_sizes": [
+    1,
+    2,
+    4
+  ],
+  "fractal_threshold": 0.5,
+  "parameter_count": 1528106,
+  "device": "cuda",
+  "samples": 3012,
+  "accuracy": 0.6550464807436919,
+  "top5_accuracy": 0.9555112881806109,
+  "macro_precision": 0.6811775253179081,
+  "macro_recall": 0.5993650122280474,
+  "macro_f1": 0.6192069244000031,
+  "classification_report": {
+    "Anthrax_Leaf": {
+      "precision": 0.7272727272727273,
+      "recall": 0.5423728813559322,
+      "f1-score": 0.6213592233009708,
+      "support": 118.0
+    },
+    "Bituminous_Leaf": {
+      "precision": 0.7872340425531915,
+      "recall": 0.6727272727272727,
+      "f1-score": 0.7254901960784313,
+      "support": 110.0
+    },
+    "Curl_Leaf": {
+      "precision": 0.776595744680851,
+      "recall": 0.5140845070422535,
+      "f1-score": 0.6186440677966102,
+      "support": 142.0
+    },
+    "Deficiency_Leaf": {
+      "precision": 0.68,
+      "recall": 0.17346938775510204,
+      "f1-score": 0.2764227642276423,
+      "support": 98.0
+    },
+    "Dry_Leaf": {
+      "precision": 0.7130681818181818,
+      "recall": 0.8229508196721311,
+      "f1-score": 0.7640791476407914,
+      "support": 305.0
+    },
+    "Felt_Leaf": {
+      "precision": 0.5692307692307692,
+      "recall": 0.48366013071895425,
+      "f1-score": 0.5229681978798587,
+      "support": 306.0
+    },
+    "Fungal_Leaf_Spot": {
+      "precision": 0.6204933586337761,
+      "recall": 0.7124183006535948,
+      "f1-score": 0.6632860040567952,
+      "support": 459.0
+    },
+    "Healthy_Leaf": {
+      "precision": 0.6818950930626058,
+      "recall": 0.8027888446215139,
+      "f1-score": 0.737419945105215,
+      "support": 502.0
+    },
+    "Leaf_Gall": {
+      "precision": 0.6077235772357723,
+      "recall": 0.6004016064257028,
+      "f1-score": 0.604040404040404,
+      "support": 498.0
+    },
+    "Leaf_Blight": {
+      "precision": 0.6482617586912065,
+      "recall": 0.6687763713080169,
+      "f1-score": 0.6583592938733126,
+      "support": 474.0
+    },
+    "accuracy": 0.6550464807436919,
+    "macro avg": {
+      "precision": 0.6811775253179081,
+      "recall": 0.5993650122280474,
+      "f1-score": 0.6192069244000031,
+      "support": 3012.0
+    },
+    "weighted avg": {
+      "precision": 0.6567201648393932,
+      "recall": 0.6550464807436919,
+      "f1-score": 0.6469592037962171,
+      "support": 3012.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      64,
+      1,
+      0,
+      0,
+      13,
+      4,
+      5,
+      11,
+      13,
+      7
+    ],
+    [
+      0,
+      74,
+      1,
+      2,
+      7,
+      0,
+      8,
+      14,
+      4,
+      0
+    ],
+    [
+      1,
+      1,
+      73,
+      0,
+      5,
+      9,
+      9,
+      12,
+      18,
+      14
+    ],
+    [
+      6,
+      7,
+      5,
+      17,
+      2,
+      3,
+      13,
+      21,
+      20,
+      4
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      251,
+      3,
+      4,
+      30,
+      7,
+      7
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      8,
+      148,
+      55,
+      16,
+      44,
+      30
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      11,
+      34,
+      327,
+      39,
+      18,
+      24
+    ],
+    [
+      3,
+      2,
+      1,
+      1,
+      26,
+      1,
+      28,
+      403,
+      17,
+      20
+    ],
+    [
+      7,
+      5,
+      5,
+      4,
+      19,
+      33,
+      40,
+      20,
+      299,
+      66
+    ],
+    [
+      3,
+      2,
+      2,
+      0,
+      10,
+      25,
+      38,
+      25,
+      52,
+      317
+    ]
+  ]
+}
